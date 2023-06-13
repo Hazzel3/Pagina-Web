@@ -1,0 +1,11 @@
+<div class="container">
+    <img src="/assets/image/costura.png" alt="Logo" class="logo"> 
+    <!-- Formulario de registro -->
+     <form >
+      <label for="new-username">Nombre de usuario:</label>
+      <input type="text" id="new-username" name="new-username" [(ngModel)]="form.username" required>  
+      <label for="new-password">Contraseña:</label>
+      <input type="password" id="new-password" name="new-password"  [(ngModel)]="form.password" required>
+      <button type="submit" (click)="onSubmit()">Iniciar sesion</button>
+    </form>
+  </div>

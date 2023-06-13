@@ -1,0 +1,81 @@
+/* Estilos generales */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url("https://mobimg.b-cdn.net/v3/fetch/ea/ea6309cbec7e1efcbb93fae4b968cd71.jpeg"); /* Agregar imagen de fondo */
+	background-size: cover;
+	font-family: Arial, sans-serif;
+}
+.container {
+	background-color: rgba(255, 192, 203, 0.9); /* Establecer color rosa transparente */
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #ccc;
+	margin: 50px auto;
+	padding: 20px;
+	max-width: 400px;
+}
+.logo {
+	display: block;
+	margin: 0 auto 20px;
+	max-width: 100%;
+	border-radius: 50%; /* Añade la propiedad border-radius para hacer el logo circular */
+	overflow: hidden; /* Añade la propiedad overflow para que la imagen se ajuste al círculo */
+  }
+
+form {
+	display: flex;
+	flex-direction: column;
+	
+}
+label {
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #fff; /* Establecer color de texto en blanco */
+}
+input[type="text"],
+input[type="password"] {
+	background-color: #fff;
+	border: none;
+	border-radius: 3px;
+	font-size: 16px;
+	margin-bottom: 10px;
+	padding: 10px;
+	color: #555; /* Establecer color de texto gris */
+}
+button[type="submit"] {
+	background-color: #ff69b4; /* Establecer color rosa brillante para el botón */
+	border: black;
+	border-radius: 10px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 105%;
+	padding: 10px;
+	transition: background-color 0.3s ease;
+	margin-bottom: 10px;
+}
+
+
+
+button[type="submit"]:hover {
+	background-color: #ff1493; /* Establecer un tono más oscuro de rosa al pasar el cursor */
+	border: black;
+	font-size: 105%;
+}
+
+.error-message {
+	color: red;
+	text-align: center;
+	margin-bottom: 10px;
+
+	  
+  }
+  
+  
+
+input.error {
+	border: 2px solid red;
+  }
+  
